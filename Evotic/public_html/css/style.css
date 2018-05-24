@@ -30,7 +30,13 @@ and open the template in the editor.
 ------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+    @font-face {
 
+        font-family: "Kaushan Script Regular";
+
+        src: url("fonts/KaushanScript-Regular.otf") format("opentype");
+
+    }
 /*-------------------
 2. Theme Default CSS
 --------------------*/
