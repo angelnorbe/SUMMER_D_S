@@ -22,8 +22,7 @@ and open the template in the editor.
 }
 
 .gray-bg {
-    /*background-image: url(../Images/color-23.jpg);*/
-    background-color: #f7f7f9;
+    background: linear-gradient(45deg,#5CF0F8,#ECDDFE);
 }
 
 .fix {
@@ -263,7 +262,6 @@ Angle-background
     bottom: -75px;
     left: 0;
     padding: 20px 0;
-    position: absolute;
     right: 0;
     -webkit-transition: 0.3s;
     transition: 0.3s;
@@ -274,7 +272,7 @@ Angle-background
     bottom: 0;
 }
 
-.social-menu a {
+.social-menu .a {
     color: #50d1c0;
     display: inline-block;
     height: 35px;
@@ -286,7 +284,7 @@ Angle-background
     margin: 0 5px;
 }
 
-.social-menu a:hover {
+.social-menu span:hover {
     background-color: #50d1c0;
     box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.2);
     color: #ffffff;
